@@ -7,33 +7,45 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body> <h1 class="heading">Welcome to my boba site.</h1>
+<body>
+    <h1 class="heading">Welcome to my boba site.</h1>
 
     <div class="content-section">
-        <div class="content-text-block"> <h2>My favorite type of boba.</h2>
+        <div class="content-text-block">
+            <h2>My favorite type of boba.</h2>
             <p>I really like this strawberry black tea boba with strawberry jelly. It's super sweet, and is a nice treat after a long day.</p>
         </div>
         <img src="https://fanaledrinks.com/cdn/shop/files/JEL026_Drink.jpg?v=1698864675&width=1445" alt="My fav jelly">
     </div>
 
     <div class="content-section">
-        <div class="content-text-block"> <h2>Tapioca is my opp</h2>
+        <div class="content-text-block">
+            <h2>Tapioca is my opp</h2>
             <p>It's texture and taste is weird and that's why i don't like it, I'm sure you wanted to know.</p>
         </div>
     </div>
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSd1pmXkEAH15wrxPJCI_JwW30Ft7a6QrxYaerJjMsdc2935ZQ/formResponse" method="post" target="_blank">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="entry.1027981529"><br>
-  <label for="flavour">Fav Boba flavour:</label><br>
-  <input type="text" id="flavour" name="entry.1929299062"><br>
-  <label for="topping">Fav Boba topping:</label><br>
-  <input type="text" id="topping" name="entry.403711013"><br>
-  <button type="submit" id="submit">Submit</button>
-</form>
-</body>
+
+    <div class="survey-section"> <h2 class="survey-title">A little survey</h2> 
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSd1pmXkEAH15wrxPJCI_JwW30Ft7a6QrxYaerJjMsdc2935ZQ/formResponse" method="post" target="_blank">
+            <div class="form-group"> <label for="name">Name (or slack user):</label>
+                <input type="text" id="name" name="entry.1027981529">
+            </div>
+
+            <div class="form-group"> <label for="flavour">Fav Boba flavour:</label>
+                <input type="text" id="flavour" name="entry.1929299062">
+            </div>
+
+            <div class="form-group"> <label for="topping">Fav Boba topping:</label>
+                <input type="text" id="topping" name="entry.403711013">
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    </body>
 <footer>
     <div class="footer-content">
-        <span>Made by Vejas for Boba drop</span>
+        <span>Made by Vejas for Boba drop (YSWS) |</span>
         <a href="https://github.com/las-vejas" target="_blank" aria-label="GitHub Profile">
             <i class="fab fa-github"></i>
         </a>
